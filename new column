@@ -1,0 +1,6 @@
+if Text.Contains([Sub Category], "Food") then "Food"
+else if Text.Contains([Sub Category], "Transport") then "Transport"
+else if Text.Contains([Sub Category], "chatgpt")
+     or Text.Contains([Sub Category], "spotify")
+     or Text.Contains([Sub Category], "youtube") then "Subscriptions"
+else "Other"
